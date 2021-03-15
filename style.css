@@ -13,7 +13,7 @@ body{
 }
 section {
     background: hsl(185, 75%, 39%);
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,6 +64,7 @@ section {
     font-weight: 400;
     opacity: .7;
     color: hsl(0, 11%, 12%);
+    margin-top: 5px;
 }
 
 .age{
@@ -83,4 +84,13 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.attribution {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    height: 10vh;
 }
